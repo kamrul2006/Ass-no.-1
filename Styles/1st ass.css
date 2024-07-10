@@ -6,63 +6,265 @@ body {
     font-family: 'Azeret mono';
 }
 
-/* Nan Bar style */
+/* Nav Bar style */
 .nav {
     font-family: 'Consolas';
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 0px 166px 0px 150px;
+    height: 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 150px;
+}
 
+#btn1 {
+    background-color: transparent;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    width: 228px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* banner style */
 .banner {
-    font-family: 'Azeret mono';
+
     max-width: 1440px;
     height: 652px;
-    border: 2px solid red;
-
     background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
+}
+
+#h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 221px;
+    margin-top: 32px;
+}
+
+#baner-p {
+    color: grey;
+    margin: 0 294px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+#banner-btn {
+    border-radius: 8px;
+    width: 210px;
+    height: 66px;
+    color: white;
+    font-size: 18px;
+    background: rgb(14, 20, 36);
+    margin-top: 32px;
+    font-family: 'Azeret mono';
 }
 
 /* Why wed developing */
 .w-w-devo {
     background-color: rgba(13, 19, 33, 0.02);
-    width: 1140px;
+    max-width: 1000px;
     height: 1395px;
-    border: 2px solid red;
-
+    border-radius: 16px;
+    text-align: center;
+    padding: 80px 97px 80px 97px;
     margin: 0 auto;
+    margin-top: 74px;
+}
+
+.Layer_1-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 300px;
+    padding: 48px;
+    margin-top: 48px;
+}
+
+.Layer_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 100%);
+    width: 946px;
+    height: 300px;
+    padding: 48px;
+    margin-top: 32px;
+}
+
+.l2h {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    width: 477px;
+    height: 72px;
+}
+
+.l2p {
+    width: 468px;
+    height: 52px;
+}
+
+.l2btn {
+    font-family: 'Azeret mono';
+    background-color: transparent;
+    width: 170px;
+    height: 48px;
+    padding: 12px;
+    border: 1px solid rgb(55, 60, 70);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 32px;
+}
+
+/* my inspiration */
+.my-inspi {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.ytv {
+    border: 30px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(184, 184, 184) 0 0 5px;
+    margin-top: 48px;
 }
 
 /* My current target */
 .my-c-tar {
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
+
     margin: 0 auto;
+    margin-top: 150px;
+}
+
+.mct_e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 16px;
+    width: 364px;
+    height: 255px;
+    padding: 40px;
+    margin-top: 32px;
+}
+
+.d3h {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.d3p {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    color: rgb(13, 19, 33);
+}
+
+.l-m {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.mct {
+    display: flex;
+    gap: 24px;
 }
 
 /* My next target */
 .my-n-tar {
     width: 1140px;
     height: 866px;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
     margin: 0 auto;
+    margin-top: 110px;
+}
+
+.mnt-e {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    max-width: 1140px;
+    height: 219px;
+    padding: 40px;
+    gap: 25px;
+}
+
+.img {
+    width: 108px;
+    height: 108px;
 }
 
 /* I need support */
 .i-n-sup {
     width: 1140px;
     height: 313px;
+    color: white;
     border: 2px solid red;
     border-radius: 16px;
     margin: 0 auto;
     background-image: linear-gradient(180.00deg, rgba(7, 2, 17, 0.453), rgba(7, 2, 17, 0.453) 100%),
         url(../assets/handshake.jpg);
+    text-align: center;
     background-position: center;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    padding: 46px;
+}
+
+.sup-box {
+    font-family: Azeret Mono;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+.sup-btn {
+    font-family: Azeret Mono;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 57px;
+    color: black;
+    font-size: 23px;
 }
 
 /* footer style  */
